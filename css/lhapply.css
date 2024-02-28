@@ -1,0 +1,412 @@
+/* Header =========================================*/
+header{
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.HeaderFlex{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:95%;
+    margin: auto;
+}
+
+.Logo{
+    width:8%;
+}
+
+.Navigation{
+    width:50%;
+}
+
+.MenuWrap{
+    display: flex;
+}
+
+.MenuWrap li{
+    height: 100%;
+    padding:0 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.MenuWrap li a{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 6rem;
+}
+
+/* apply -------------------------------*/
+.MenuItem-apply a{
+    color: #5463d2;
+}
+
+.MenuItem-apply a::after{
+    position: absolute;
+    bottom:-3%;
+    right: 50%;
+    width: 90%;
+    height: 4%;
+    background-color: #5463d2;
+    content: "";
+}
+
+.MenuItem-apply a::before{
+    position: absolute;
+    bottom:-3%;
+    left: 50%;
+    width: 90%;
+    height: 4%;
+    background-color: #5463d2;
+    content: "";
+    transition: all 0.2s ease;
+}
+
+/* pre -------------------------------*/
+.MenuItem-pre a{
+    color: #000;
+    transition: all 0.2s ease;
+}
+
+.MenuItem-pre a::after{
+    position: absolute;
+    bottom:-3%;
+    right: 50%;
+    width: 0%;
+    height: 4%;
+    background-color: #009ADB;
+    content: "";
+    transition: all 0.2s ease;
+}
+
+.MenuItem-pre a::before{
+    position: absolute;
+    bottom:-3%;
+    left: 50%;
+    width: 0%;
+    height: 4%;
+    background-color: #009ADB;
+    content: "";
+    transition: all 0.2s ease;
+}
+
+.MenuItem-pre a:hover{
+    color: #009ADB;
+}
+
+.MenuItem-pre a:hover::after{
+    width: 60%;
+}
+
+.MenuItem-pre a:hover::before{
+    width: 60%;
+}
+
+/* land -------------------------------*/
+.MenuItem-land a{
+    color: #000;
+    transition: all 0.2s ease;
+}
+
+.MenuItem-land a::after{
+    position: absolute;
+    bottom:-3%;
+    right: 50%;
+    width: 0%;
+    height: 4%;
+    background-color: #16A29B;
+    content: "";
+    transition: all 0.2s ease;
+}
+
+.MenuItem-land a::before{
+    position: absolute;
+    bottom:-3%;
+    left: 50%;
+    width: 0%;
+    height: 4%;
+    background-color: #16A29B;
+    content: "";
+    transition: all 0.2s ease;
+}
+
+.MenuItem-land a:hover{
+    color: #16A29B;
+}
+
+.MenuItem-land a:hover::after{
+    width: 60%;
+}
+
+.MenuItem-land a:hover::before{
+    width: 60%;
+}
+
+/* mbr -------------------------------*/
+.MenuItem-mbr a{
+    color: #000;
+    transition: all 0.2s ease;
+}
+
+.MenuItem-mbr a::after{
+    position: absolute;
+    bottom:-3%;
+    right: 50%;
+    width: 0%;
+    height: 4%;
+    background-color: #155FBC;
+    content: "";
+    transition: all 0.2s ease;
+}
+
+.MenuItem-mbr a::before{
+    position: absolute;
+    bottom:-3%;
+    left: 50%;
+    width: 0%;
+    height: 4%;
+    background-color: #155FBC;
+    content: "";
+    transition: all 0.2s ease;
+}
+
+.MenuItem-mbr a:hover{
+    color: #155FBC;
+}
+
+.MenuItem-mbr a:hover::after{
+    width: 60%;
+}
+
+.MenuItem-mbr a:hover::before{
+    width: 60%;
+}
+
+/**/
+.HeaderSearch{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width:20%;
+    min-height: 2.6rem;
+    padding-left:3rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+}
+
+.HeaderSearchInput{
+    width:99%;
+    font-size: 0.9rem;
+}
+
+
+.HeaderSearchBtn{
+    position: absolute;
+    top:50%;
+    left:4%;
+    transform: translateY(-50%);
+    width: 5%;
+    height: 50%;
+    padding:0px;
+    border: none;
+    background: url(../img/magnifying-glass-solid.svg) no-repeat;
+}
+
+.HeaderInfo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.HeaderInfo-number{
+    padding-right:0.7rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-right: 1px solid #777;
+}
+
+.HeaderInfo-number-link{
+    color: #a2182f;
+}
+
+.HeaderInfo-hour{
+    padding-left: 0.7rem;
+}
+
+.HeaderInfo-hour li{
+    font-size: 12px;
+    line-height: 1rem;
+    color:#777;
+}
+
+
+
+.HeaderTopUtil{
+    position: absolute;
+    top: 5%;
+    right: 0%;
+}
+
+.HeaderTopUtilList{
+    display: flex;
+}
+
+.HeaderTopUtilItem{
+    padding: 0px 0.4rem ;
+    font-size: 0.8rem;
+}
+
+/* Main ===================================*/
+main{
+    width: 82%;
+    margin: auto;
+}
+
+
+/* MainApply ==============================*/
+.MainApply{
+    margin-top:2rem;
+}
+
+.MainApplyWrap{
+    display:flex;
+    justify-content: space-between;
+}
+
+.MainApplyListFlex{
+    display:flex;
+    justify-content: space-between;
+    width:73%;
+}
+
+.MainApplyListContainer{
+    display: flex;
+    width: 65%;
+    min-height: 28rem;
+}
+
+.MainApplyList{
+    display:block;
+    width:21%;
+    padding: 1rem 1.5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    background-color: #6b78d0;
+}
+
+.MainApplyItem{
+  border-bottom: 1px solid #fff;
+}
+
+.MainApplyItem.on{
+    border: none;
+}
+
+.MainApplyItem-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 4.5rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.MainApplyItem-link.on{
+    position: relative;
+    width: 100%;
+    padding-right: 50px;
+    border-radius: 80px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    font-weight: bold;
+    color: #6b78d0;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.MainApplyItem-link.on::after{
+    position: absolute;
+    top:50%;
+    right: 10%;
+    transform: translateY(-50%);
+    width: 17%;
+    height: 43%;
+    border-radius: 100%;
+    font-size: 20rem;
+    line-height: 1.5rem;
+    background-size: 30%, 25%;
+    background-image: url(../img/angle-right-solid.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #a5b0f8;
+    content: "";
+}
+
+.MainApplyImgContainer{
+    width: 79%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.MainApplyImg-inner{
+    position: relative;
+    height: 100%;
+    background-image: url(../img/img_sbr01.png);
+}
+
+.MainApplyImg-innertext{
+    position: absolute;
+    bottom: 15%;
+    right: 7%;
+    font-size: 2.1rem;
+    font-weight: bold;
+    line-height: 2.7rem;
+    text-align: end;
+    color: #fff;
+}
+
+.MainApplyImg-innerlink{
+    position: absolute;
+    display: grid;
+    top:7%;
+    left:8%;
+}
+
+.MainApplyImg-innerlink a{
+    position: relative;
+    min-width: 10rem;
+    padding: 1rem 1.4rem;
+    margin-bottom: 1rem;
+    border-top-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    border-top-right-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.42);
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #566bcf;
+}
+
+.MainApplyImg-innerlink a::after{
+    position: absolute;
+    top:50%;
+    right: 10%;
+    transform: translateY(-50%);
+    width: 10%;
+    height: 35%;
+    background: url(../img/arrow-right-solid.svg) no-repeat;
+    content: "";
+}
+
+.MainApplyListLink{
+    width:32%;
+}
+
+.MainApplyDate{
+    width: 25%;
+}
