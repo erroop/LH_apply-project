@@ -725,3 +725,686 @@ header{
 .FooterInfoHour  span em{
     color: #bc2649;
 }
+
+@media screen and (min-width : 1240px) and (max-width : 1400px){
+    .MainSearchBar{
+        width: 40%;
+    }
+
+    .MainLink{
+        width: 95%;
+    }
+
+    .MainWrapContainer{
+        width: 72%;
+    }
+
+    .MainLinkApply{
+        width: 26%;
+    }
+
+    .MainWrapList{
+        flex-wrap: wrap;
+    }
+    .MainWrapItem{
+        width: 49%;
+        height: 11rem;
+    }
+
+    .MainWrapItem:nth-child(1){
+        margin-bottom:1rem;
+    }
+
+    .MainWrapItem a{
+        height:11rem;
+    }
+
+    .MainWrapItem-title::after{
+        top:-200%;
+        right: 400%;
+    }
+
+    .MainWrapItem-title::before{
+        bottom:100%;
+        left:200%;
+    }
+
+    .MainWrapItem-link{
+        padding:1rem 3.5rem 1rem 1.5rem;
+    }
+
+    .MainWrapItem-link::after{
+        right: 10%;
+        width: 1.5rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+
+    
+    .MainWrapItemLink-appy::before{
+        left:30%;
+        transform: none;
+    }
+
+    .MainWrapItemLink-appy:hover .MainWrapItem-link{
+        min-width: 70px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        background-color: #f0dbd4;
+    }
+    
+    .MainWrapItemLink-appy:hover .MainWrapItem-link::before{
+        top:25%;
+        width: 25px;
+        height: 25px;
+        transform: rotate(135deg);
+    }
+
+    .MainWrapItemLink-pre::before{
+        left:30%;
+        transform: none;
+    }
+
+    .MainWrapItemLink-pre:hover .MainWrapItem-link{
+        min-width: 70px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        background-color: #f0dbd4;
+    }
+    
+    .MainWrapItemLink-pre:hover .MainWrapItem-link::before{
+        top:25%;
+        width: 25px;
+        height: 25px;
+        transform: rotate(135deg);
+    }
+
+    .MainWrapItemLink-land::before{
+        left:30%;
+        transform: none;
+    }
+
+    .MainWrapItemLink-land:hover .MainWrapItem-link{
+        min-width: 70px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        background-color: #f0dbd4;
+    }
+    
+    .MainWrapItemLink-land:hover .MainWrapItem-link::before{
+        top:25%;
+        width: 25px;
+        height: 25px;
+        transform: rotate(135deg);
+    }
+    .MainWrapItemLink-mbr::before{
+        left:30%;
+        transform: none;
+    }
+
+    .MainWrapItemLink-mbr:hover .MainWrapItem-link{
+        min-width: 70px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        background-color: #f0dbd4;
+    }
+    
+    .MainWrapItemLink-mbr:hover .MainWrapItem-link::before{
+        top:25%;
+        width: 25px;
+        height: 25px;
+        transform: rotate(135deg);
+    }
+
+    .MainWrapItem-title{
+        left:53%;
+        bottom:40%;
+        transform: none;
+    }
+    
+    .MainWrapsubLinkItem{
+        width: 17%;
+    }
+
+    .MainWrapsubLinkItem-link{
+        font-size: 1rem;
+    }
+
+
+    .MainWrapsubLinkItem-Icon{
+        margin-right: 0.3rem;
+    }
+
+    .FooterInfo{
+        width: 95%;
+    }
+
+    .FooterInfoAddress{
+        width: 38%;
+    }
+
+    .FooterInfoNumber{
+        padding-right: 2rem;
+    }
+
+    .FooterInfoAddressItem{
+        font-size: 0.9rem;
+    }
+
+    .FooterInfoAddressItem:last-child{
+        font-size: 0.8rem;
+    }
+
+    .FooterInfoNumber a{
+        display: inline-block;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .FooterInfoHourItem{
+        white-space: nowrap;
+    }
+}
+@media screen and (min-width : 865px) and (max-width : 1240px){
+    .Logo{
+        line-height: 5.5rem;
+    }
+
+    .LogoImg{
+        width: 13%;
+    }
+
+    .MainSearchBar{
+        width: 70%;
+    }
+
+    .MainLink{
+        width: 95%;
+    }
+
+    .MainWrapContainer{
+        width: 60%;
+    }
+
+    .MainLinkApply{
+        width: 38%;
+    }
+
+    .MainWrapList{
+        flex-wrap: wrap;
+    }
+    .MainWrapItem{
+        width: 49%;
+        height: 11rem;
+    }
+
+    .MainWrapItem:nth-child(1){
+        margin-bottom:1rem;
+    }
+
+    .MainWrapItem a{
+        height:11rem;
+    }
+
+    .MainWrapItem-title::after{
+        display: none;
+    }
+
+    .MainWrapItem-title::before{
+        display: none;
+    }
+
+    .MainWrapItem-link{
+        padding:0.7rem 3.1rem 0.7rem 1.1rem;
+    }
+
+    .MainWrapItem-link::after{
+        right: 10%;
+        width: 1.5rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+    
+    .MainWrapItemLink-appy::before{
+        top:35%;
+        left:30%;
+        width: 55px;
+        height: 55px;
+        background-size: 55px;
+        transform: none;
+    }
+
+    .MainWrapItemLink-appy:hover .MainWrapItem-link{
+        min-width: 70px;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: #f0dbd4;
+    }
+    
+    .MainWrapItemLink-appy:hover .MainWrapItem-link::before{
+        top:25%;
+        width: 20px;
+        height: 20px;
+        transform: rotate(135deg);
+    }
+
+    .MainWrapItemLink-pre::before{
+        top:35%;
+        left:30%;
+        width: 55px;
+        height: 55px;
+        background-size: 55px;
+        transform: none;
+    }
+
+    .MainWrapItemLink-pre:hover .MainWrapItem-link{
+        min-width: 70px;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: #f0dbd4;
+    }
+    
+    .MainWrapItemLink-pre:hover .MainWrapItem-link::before{
+        top:25%;
+        width: 20px;
+        height: 20px;
+        transform: rotate(135deg);
+    }
+
+    .MainWrapItemLink-land::before{
+        top:35%;
+        left:30%;
+        width: 55px;
+        height: 55px;
+        background-size: 55px;
+        transform: none;
+    }
+
+    .MainWrapItemLink-land:hover .MainWrapItem-link{
+        min-width: 70px;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: #f0dbd4;
+    }
+    
+    .MainWrapItemLink-land:hover .MainWrapItem-link::before{
+        top:25%;
+        width: 20px;
+        height: 20px;
+        transform: rotate(135deg);
+    }
+    .MainWrapItemLink-mbr::before{
+        top:35%;
+        left:30%;
+        width: 55px;
+        height: 55px;
+        background-size: 55px;
+        transform: none;
+    }
+
+    .MainWrapItemLink-mbr:hover .MainWrapItem-link{
+        min-width: 70px;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: #f0dbd4;
+    }
+    
+    .MainWrapItemLink-mbr:hover .MainWrapItem-link::before{
+        top:25%;
+        width: 20px;
+        height: 20px;
+        transform: rotate(135deg);
+    }
+
+    .MainWrapItem-title{
+        left:53%;
+        bottom:45%;
+        transform: none;
+        font-size: 1rem;
+    }
+    
+    .MainWrapsubLinkList{
+        flex-wrap: wrap;
+    }
+
+    .MainWrapsubLinkItem{
+        width: 50%;
+        box-sizing: border-box;
+        border-radius: none;
+        box-shadow: none;
+    }
+
+    .MainWrapsubLinkItem-link{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .MainWrapsubLinkItem-link::after{
+        right: 5%;
+        width:0.7rem;
+        height: 0.9rem;
+    }
+
+    .MainWrapsubLinkItem-Icon{
+        width: 2.2rem;
+        height: 2.2rem;
+        margin-right: 0.3rem;
+    }
+
+    .FooterInfo{
+        position: relative;
+        width: 95%;
+        flex-wrap: wrap;
+    }
+
+    .FooterInfo div:nth-child(1){
+        margin-bottom: 1.5rem;
+    }
+
+    .FooterInfoAddress{
+        width: 60%;
+    }
+
+    .FooterInfoNumber{
+        width: 15%;
+        padding-right: 2rem;
+    }
+
+    .FooterInfoAddressItem{
+        font-size: 0.9rem;
+    }
+
+    .FooterInfoAddressItem:last-child{
+        font-size: 0.8rem;
+    }
+
+    .FooterInfoNumber a{
+        display: inline-block;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .FooterInfoHour{
+       position: static;
+    }
+
+    .FooterInfoHour::after{
+       top:50%;
+       transform: translateY(-50%);
+    }
+
+    .FooterInfoHourItem{
+        white-space: nowrap;
+    }
+}
+@media screen and (max-width : 865px){
+    .Logo{
+        line-height: 5.5rem;
+    }
+    .LogoImg{
+        width: 20%;
+    }
+    
+    .Slogan{
+        width: 95%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .SloganItem101 img{
+        width: 33%;
+    }
+    .SloganItem102 img{
+        width: 17%;
+        margin: none;
+    }
+    .SloganItem103 img{
+        width: 33%;
+    }
+
+    .MainSearchBar{
+        width: 80%;
+    }
+    .MainSearchBarInput{
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .MainLink{
+        width: 95%;
+    }
+
+    .MainLinkWrap{
+        flex-direction: column;
+    }
+
+    .MainWrapContainer{
+        width: 100%;
+    }
+
+    .MainLinkApply{
+        width: 100%;
+    }
+
+    .MainWrapList{
+        flex-wrap: wrap;
+    }
+    .MainWrapItem{
+        width: 49%;
+        height: 11rem;
+    }
+
+    .MainWrapItem:nth-child(1){
+        margin-bottom:1rem;
+    }
+
+    .MainWrapItem a{
+        height:11rem;
+    }
+
+    .MainWrapItem-title::after{
+        display: none;
+    }
+
+    .MainWrapItem-title::before{
+        display: none;
+    }
+
+    .MainWrapItem-link{
+        padding:0.7rem 3.1rem 0.7rem 1.1rem;
+    }
+
+    .MainWrapItem-link::after{
+        right: 10%;
+        width: 1.5rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+    
+    .MainWrapItemLink-appy::before{
+        top:25%;
+        left:50%;
+        width: 55px;
+        height: 55px;
+        background-size: 55px;
+    }
+
+    .MainWrapItemLink-appy:hover .MainWrapItem-link{
+        min-width: 70px;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: #f0dbd4;
+    }
+    
+    .MainWrapItemLink-appy:hover .MainWrapItem-link::before{
+        top:25%;
+        width: 20px;
+        height: 20px;
+        transform: rotate(135deg);
+    }
+
+    .MainWrapItemLink-pre::before{
+        top:25%;
+        left:50%;
+        width: 55px;
+        height: 55px;
+        background-size: 55px;
+    }
+
+    .MainWrapItemLink-pre:hover .MainWrapItem-link{
+        min-width: 70px;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: #f0dbd4;
+    }
+    
+    .MainWrapItemLink-pre:hover .MainWrapItem-link::before{
+        top:25%;
+        width: 20px;
+        height: 20px;
+        transform: rotate(135deg);
+    }
+
+    .MainWrapItemLink-land::before{
+        top:25%;
+        left:50%;
+        width: 55px;
+        height: 55px;
+        background-size: 55px;
+    }
+
+    .MainWrapItemLink-land:hover .MainWrapItem-link{
+        min-width: 70px;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: #f0dbd4;
+    }
+    
+    .MainWrapItemLink-land:hover .MainWrapItem-link::before{
+        top:25%;
+        width: 20px;
+        height: 20px;
+        transform: rotate(135deg);
+    }
+    .MainWrapItemLink-mbr::before{
+        top:25%;
+        left:50%;
+        width: 55px;
+        height: 55px;
+        background-size: 55px;
+    }
+
+    .MainWrapItemLink-mbr:hover .MainWrapItem-link{
+        min-width: 70px;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: #f0dbd4;
+    }
+    
+    .MainWrapItemLink-mbr:hover .MainWrapItem-link::before{
+        top:25%;
+        width: 20px;
+        height: 20px;
+        transform: rotate(135deg);
+    }
+
+    .MainWrapItem-title{
+        left:50%;
+        transform: translateX(-50%);
+        bottom:30%;
+        font-size: 1rem;
+    }
+    
+
+    .MainWrapsubLink{
+        margin: 1.5rem 0rem 3rem 0rem;
+    }
+
+    .MainWrapsubLinkItem{
+        width: 50%;
+        box-sizing: border-box;
+        border-radius: none;
+        box-shadow: none;
+    }
+
+    .MainWrapsubLinkItem-link{
+        flex-direction: column;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    .MainWrapsubLinkItem-link::after{
+        display: none;
+    }
+
+    .MainWrapsubLinkItem-Icon{
+        width: 2.2rem;
+        height: 2.2rem;
+        margin-bottom: 0.3rem;
+        margin-right: 0px;
+    }
+
+    .MainLinkApply-title{
+        font-size: 1.1rem;
+    }
+
+    .MainLinkApply-link::after{
+        top:50%;
+    }
+    
+    .FooterInfo{
+        position: relative;
+        width: 95%;
+        flex-wrap: wrap;
+    }
+
+    .FooterInfoLogo{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .FooterInfo div:nth-child(1){
+        margin-bottom: 0rem;
+    }
+
+    .FooterInfoAddress{
+        width: 100%;
+    }
+
+    .FooterInfoNumber{
+        width: 100%;
+        margin: 1rem 0rem;
+        padding-right: 2rem;
+    }
+
+    .FooterInfoAddressItem{
+        font-size: 0.9rem;
+    }
+
+    .FooterInfoAddressItem:last-child{
+        font-size: 0.8rem;
+    }
+
+    .FooterInfoNumber a{
+        display: inline-block;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .FooterInfoHour{
+       position: static;
+       width: 100%;
+       padding-right: 0px;
+       padding-bottom: 3rem;
+    }
+
+    .FooterInfoHour::after{
+        top: auto;
+       bottom:18%;
+    }
+
+    .FooterInfoHourItem{
+        white-space: nowrap;
+    }
+}
