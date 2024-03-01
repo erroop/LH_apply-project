@@ -1649,7 +1649,11 @@ footer{
         display: none;
     }
 
-    footer{
-       
+    .FooterBtnLink{
+        display: none;
+    }
+
+    .FooterInfoInner{
+        flex-direction: column;
     }
 }
